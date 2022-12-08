@@ -1,0 +1,16 @@
+app:
+  message: Message has been sent Successfully..
+spring:
+  rabbitmq:
+    host: localhost
+    password: 0aOH0m-gJOdRSCoRvmt-z7drGzath6zv
+    port: 5672
+    username: wzvijfiz
+    exchange: measure.exchange
+    queue: measure.queue
+    routingkey: measure.routingkey
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
+server:
+  port: 9091
